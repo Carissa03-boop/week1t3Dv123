@@ -112,4 +112,18 @@ button {
     position: relative;
     bottom: -100px;
 }
+.planti{
+    height: 90vh;
+    position: relative;
+    bottom: -100px;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Accordion */
+
+.accordion-button{
+    background-color: #18382B;
+}
+
+
 

@@ -51,11 +51,19 @@ $(document).ready(function(){
 
     //When the Hero Image Loads, Animate it Upwards
     $(".hero-image").animate({top:'-=100px'});
+    
+    $(".carousel-control-next").click($(".planti").animate({top:'-=100px'}));
+
+    // $(".carousel-control-next").click(function(){
+    //     $(".planti").animate({top:'-=100px'});
+    //   }); 
 
     // ------------------------------------------------------------------
     //  Browse Page 
     $("#descriptionText").hide();
     loadPlants();
+
+    
 
 
 });
