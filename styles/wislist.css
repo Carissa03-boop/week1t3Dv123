@@ -73,21 +73,27 @@ body {
     max-width: 600px;
     text-align: left;
   }
+
+  .imggg {
+    max-width: 50px;
+    height: auto;
+  }
+
   th, td {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
   }
   th {
     background-color: #18382B;
     color: #E6F2E9;
   }
   .remove-button {
-    background-color: #ff5555;
+    background-color: #bb5454;
     color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
   }
   .remove-button:hover {
-    background-color: #ff0000;
+    background-color: #491b1b;
   }
